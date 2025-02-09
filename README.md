@@ -1,6 +1,11 @@
-# Solana Airdrop Example
+# Solana Transactions Explained & How to Transfer SOL in Rust
 
-This repository contains the code used in this [Solana Tutorials YouTube video](https://www.youtube.com/watch?v=nwS3DhkgHX0&ab_channel=SolanaTutorials). It demonstrates how to send a transaction to transfer SOL in Rust using `solana-test-validator` (local validator).
+This repository contains the code used in these two Solana Tutorials Youtube videos:
+
+- [Solana Transactions Explained](https://www.youtube.com/watch?v=nwS3DhkgHX0&ab_channel=SolanaTutorials)
+- [How to Transfer SOL in Rust on Solana](https://www.youtube.com/watch?v=MA24DwhyYn4&ab_channel=SolanaTutorials).
+
+It demonstrates how to send a transaction to transfer SOL in Rust using `solana-test-validator` (local validator).
 
 ## Prerequisites
 
@@ -18,6 +23,7 @@ solana-test-validator
 
 With the validator running, open another terminal window and execute one of the examples below.
 
+> [!NOTE]  
 > Both Example 1 and Example 2 are functionally equivalent.
 >
 > Example 2 is simply an expanded (desugared) version of Example 1.
